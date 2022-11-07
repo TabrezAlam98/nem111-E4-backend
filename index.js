@@ -1,5 +1,5 @@
 const { application } = require("express")
-require("dotenv").config()
+// require("dotenv").config()
 const express=require("express")
 // const PORT=precess.env.PORT || 8500
 const {connection}=require("./db")
