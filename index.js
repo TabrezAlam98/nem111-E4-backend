@@ -2,8 +2,8 @@ const { application } = require("express")
 // require("dotenv").config()
 const express=require("express")
 // const PORT=precess.env.PORT || 8500
-const {connection}=require("./db")
-const {UserModel}=require("./models/User.model")
+const {connection,UserModel}=require("./db")
+// const {UserModel}=require("./models/User.model")
 
 const app=express()
 app.use(express.json());
